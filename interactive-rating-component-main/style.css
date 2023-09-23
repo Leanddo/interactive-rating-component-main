@@ -145,4 +145,26 @@ margin-top: 25px;
   margin-top: 10px;
   text-align: center;
 }
-
+@media (max-width: 375px) , screen and (orientation: portrait) {
+  #firstpage{
+    max-width: 300px;
+    max-height: 300px;
+  }
+  #firstpage h1{
+    margin-top: 15px;
+  }
+  #submit{
+    width: 300px;
+  }
+  #numeric{
+    height: 40px;
+  }
+  #star{
+   width:5%;
+   padding: 10px;
+  }
+  #secondpage{
+    max-width: 300px;
+    max-height: 300px;
+  }
+}
