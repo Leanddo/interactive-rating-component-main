@@ -1,18 +1,22 @@
-const rating = document.getElementById("numeric")[0];
-const ratingsection = document.getElementById("firstpage")[0];
-const tankssection = document.getElementsByClassName("secondpage")[0];
-const ratingNumber = document.getElementById("ratingnum");
-
 function submit() {
-    ratingsection.style.display = "none";
-    tankssection.style.display = "block";
-    let activeElement = document.getElementsByClassName("active")[0];
-    ratingNumber.innerText = rating.innerText;
+  document.getElementById('firstpage').style.display = 'none';
+  document.getElementById('secondpage').style.display = 'flex';
+  document.getElementById('ratingnum').innerHTML=value;
 }
-function ratingFunc(e) {
-    for (let j = 0; j < ratings.length; j++) {
-      const rate = ratings[j];
-      rate.classList.remove("active");
-    }
-    e.target.classList.add("active");
-  }
+var value=0;
+
+function value1(){
+ value=1;
+}
+function value2(){
+  value=2;
+}
+function value3(){
+  value=3;
+}
+function value4(){
+  value=4;
+}
+function value5(){
+  value=5;
+}
