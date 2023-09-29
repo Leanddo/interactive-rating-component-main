@@ -1,4 +1,5 @@
 # Frontend Mentor - Interactive rating component
+[GitHubPages](https://leanddo.github.io/interactive-rating-component-main/interactive-rating-component-main/index.html)
 
 ![Design preview for the Interactive rating component coding challenge](./design/desktop-preview.jpg)
 
